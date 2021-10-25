@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(74, 172, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.change__tab {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #fff;
+   padding: 2rem;
+   border-radius: 8px;
+}
+.change__line{
+    margin-bottom: 1rem;
+}
+.inputindex {
+    width: 63%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 3px solid #ddd;
+}
+.btnchange{
+    width: 30%;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.change__content {
+    display: flex;
+    padding-right: 10rem;
+    margin-bottom: 2rem;
+}
+.positive{
+    margin-right: 1rem;
+    font-size: 13px;
+    color: #ddd;
+    cursor: pointer;
+}
+.negative{
+    margin-right: 1rem;
+    font-size: 13px;
+    color: #ddd;
+    cursor: pointer;
+}
+.neutral {
+    margin-right: 1rem;
+    font-size: 13px;
+    color: #ddd;
+    cursor: pointer;
+}
+.result {
+    font-size: 13px;
+    transition: 0.9s;
+}
+.change__active{
+    color: black;
+    transition: 0.9s;
+}
